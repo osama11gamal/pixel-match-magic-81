@@ -381,11 +381,11 @@ function Finale({ onReplay }: { onReplay: () => void }) {
 
       <div className="relative flex max-w-xl flex-col items-center text-center">
         <Crown className="w-16 animate-rise text-gold" />
-        <div className="relative mt-2 animate-rise" style={{ animationDelay: ".3s" }}>
+        <div className="mt-2 flex animate-rise items-center justify-center gap-3 sm:gap-4" style={{ animationDelay: ".3s" }}>
           <span className="block font-display lining-nums text-[11rem] font-bold leading-none text-gold-light sm:text-[14rem]" style={{ textShadow: "0 0 40px var(--gold)" }}>
             1
           </span>
-          <div className="absolute left-full ml-3 bottom-8 h-24 w-24 overflow-hidden rounded-full p-1 bg-gold-gradient shadow-glow sm:h-28 sm:w-28">
+          <div className="h-24 w-24 overflow-hidden rounded-full p-1 bg-gold-gradient shadow-glow sm:h-28 sm:w-28">
             <img src={p3.url} alt="Ishaq smiling" className="h-full w-full rounded-full object-cover object-[50%_45%]" />
           </div>
         </div>
