@@ -382,7 +382,7 @@ function Finale({ onReplay }: { onReplay: () => void }) {
       <div className="relative flex max-w-xl flex-col items-center text-center">
         <Crown className="w-16 animate-rise text-gold" />
         <div className="relative mt-2 animate-rise" style={{ animationDelay: ".3s" }}>
-          <span className="block font-display text-[11rem] font-bold leading-none text-gold-light sm:text-[14rem]" style={{ textShadow: "0 0 40px var(--gold)" }}>
+          <span className="block font-display lining-nums text-[11rem] font-bold leading-none text-gold-light sm:text-[14rem]" style={{ textShadow: "0 0 40px var(--gold)" }}>
             1
           </span>
           <div className="absolute left-full ml-3 bottom-8 h-24 w-24 overflow-hidden rounded-full p-1 bg-gold-gradient shadow-glow sm:h-28 sm:w-28">
