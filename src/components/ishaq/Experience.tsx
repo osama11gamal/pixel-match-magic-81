@@ -489,7 +489,7 @@ export function Experience() {
       )}
 
       {stage === "opening" && (
-        <div className="pointer-events-none fixed left-1/2 top-1/2 z-20 h-10 w-10 -translate-x-1/2 -translate-y-1/2 animate-burst rounded-full bg-gold-light" aria-hidden />
+        <div className="pointer-events-none fixed inset-0 z-20 m-auto h-10 w-10 animate-burst rounded-full bg-gold-light" aria-hidden />
       )}
 
       {stage === "book" && <Storybook onFinish={finish} />}
